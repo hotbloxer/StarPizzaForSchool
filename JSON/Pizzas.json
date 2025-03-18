@@ -1,0 +1,12 @@
+{
+    "pizzas" : [
+        {"name" : "Italian man who went to malta", "price" : "100", "description": "If you want fork, you no get on table here!",
+        "toppings": ["fork", "table", "Italian"]},
+
+        {"name" : "Make Rome Greek again", "price" : "300", "description": "U dine, I dine, then watch gladiator!",
+        "toppings": ["Liprus", "Vitalis", "Brutus scandalus"]},
+
+        {"name" : "Wine and dine", "price" : "69", "description": "Red is the color of romance, and my shirt, it hides the lipstick",
+        "toppings": ["Passion", "Lust", "Pont noiar" , "Patricks mor"]}
+    ]
+}

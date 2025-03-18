@@ -3,13 +3,18 @@
 <head>
     <link rel="stylesheet" href="CSS/style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STAR PIZZA</title>
+    <script src="JavaScript/Pizzas.js" defer></script>
     
 </head>
 <body>
     <header>
-        <h1>Star Pizza</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="Images/pizzabannerstump.jpg">
+            <img class = "fullWidthImage" src="Images/pizzabannerslim.png" alt = "banner Image">  
+             
+          </picture>
+        
     </header>
     <nav> 
         <a href="index.html">Home</a>
@@ -19,7 +24,10 @@
     </nav>
     <main>
         <h2>Menu</h2>
-        <p>Please view our exquisite selection of italian classics</p>
+        <p id="menueCard">Please view our exquisite selection of italian classics</p>
+
+        
+
     </main>
     <footer>
         <p>&copy; 2025 STAR PIZZA</p>

@@ -1,15 +1,27 @@
 
+
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-header, footer {
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1em;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -25,8 +37,102 @@ main {
 }
 
 
+
+.textCenter {
+    text-align: center;
+}
+  
+.fullWidthImage{
+    width: 100%; 
+}
+
+.openingTimes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+.day {
+background-color: #4CAF50;
+color: white;
+}
+
+.time {
+background-color: #f2f2f2;
+}
+ 
+.sticky {
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    font-size: 20px;
+  }
+
+.schedule-container {
+    margin: 2rem;
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%;
+}
+
+.column2 {
+  flex: 30%;
+}
+
+.fiveGridSystem {
+  display: grid;
+  grid-template-columns: 1fr 20rem 20rem 20rem 1fr;
+  gap: 2rem;
+}
+
+.fixedHeightMenu {
+  height: 15rem;
+}
+
+.debugColor {
+  background-color: #4CAF50;
+ 
+}
+
+.fitImgToContainer {
+  width: fit-content;
+  overflow: hidden;
+}
+
+
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
+        text-align: center;
     }
+
+    div.sticky {
+        position: static ;
+        top: 0;
+        padding: 50px;
+        font-size: 20px;
+      }
+
+      .row {
+        display:block;
+      }
+      
+      .column {
+        flex: 100%;
+      }
 }
+
+
