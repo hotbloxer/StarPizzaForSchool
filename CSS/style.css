@@ -4,54 +4,59 @@
 
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #444;
+  display: flex;
+  justify-content: space-around;
+  background-color: #444;
 }
 nav a {
-    color: white;
-    padding: 1em;
-    text-decoration: none;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
 }
 main {
-    padding: 1em;
+  padding: 1em;
+}
+
+
+figure {
+margin: 0;
 }
 
 
 
 .textCenter {
-    text-align: center;
+  text-align: center;
 }
-  
+
 .fullWidthImage{
-    width: 100%; 
+  width: 100%; 
 }
 
 .openingTimes-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    margin-top: 20px;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
 
 .day {
 background-color: #4CAF50;
@@ -61,78 +66,91 @@ color: white;
 .time {
 background-color: #f2f2f2;
 }
- 
+
 .sticky {
-    position: sticky;
-    top: 0;
-    padding: 50px;
-    font-size: 20px;
-  }
+  position: sticky;
+  top: 0;
+  padding: 50px;
+  font-size: 20px;
+}
 
 .schedule-container {
-    margin: 2rem;
-    text-align: center;
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: fit-content;
+  margin: 2rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: fit-content;
 }
 
 
 .row {
-  display: flex;
+display: flex;
 }
 
 .column1 {
-  flex: 50%;
+flex: 50%;
 }
 
 .column2 {
-  flex: 30%;
+flex: 30%;
 }
 
 .fiveGridSystem {
-  display: grid;
-  grid-template-columns: 1fr 20rem 20rem 20rem 1fr;
-  gap: 2rem;
+display: grid;
+grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+gap: 2rem;
 }
 
 .fixedHeightMenu {
-  height: 15rem;
-}
 
-.debugColor {
-  background-color: #4CAF50;
- 
+aspect-ratio: 2 / 2;
+overflow: hidden;
 }
 
 .fitImgToContainer {
-  width: fit-content;
-  overflow: hidden;
+  width: 100%;
+}
+
+.debugColor {
+background-color: #4CAF50;
+
+}
+
+.debugColor2 {
+background-color: #af4c9d;
+
+}
+
+.menuImage {
+width:100%;
+
+
 }
 
 
+
 @media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        text-align: center;
+  nav {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  div.sticky {
+      position: static ;
+      top: 0;
+      padding: 50px;
+      font-size: 20px;
     }
 
-    div.sticky {
-        position: static ;
-        top: 0;
-        padding: 50px;
-        font-size: 20px;
-      }
-
-      .row {
-        display:block;
-      }
-      
-      .column {
-        flex: 100%;
-      }
+    .row {
+      display:block;
+    }
+    
+    .column {
+      flex: 100%;
+    }
 }
 
 

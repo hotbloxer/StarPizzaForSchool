@@ -1,12 +1,16 @@
 {
     "pizzas" : [
-        {"name" : "Italian man who went to malta", "price" : "100", "description": "If you want fork, you no get on table here!",
-        "toppings": ["fork", "table", "Italian"]},
+        {"name" : "Italian man 1", "price" : "100", "img": "Images/Pizzas/1.jpg"},
 
-        {"name" : "Make Rome Greek again", "price" : "300", "description": "U dine, I dine, then watch gladiator!",
-        "toppings": ["Liprus", "Vitalis", "Brutus scandalus"]},
+        {"name" : "Italian man 2", "price" : "100", "img": "Images/Pizzas/2.jpg"},
 
-        {"name" : "Wine and dine", "price" : "69", "description": "Red is the color of romance, and my shirt, it hides the lipstick",
-        "toppings": ["Passion", "Lust", "Pont noiar" , "Patricks mor"]}
+        {"name" : "Italian 3", "price" : "100", "img": "Images/Pizzas/3.jpg"},
+
+        {"name" : "Italian man 4", "price" : "100", "img": "Images/Pizzas/4.jpg"},
+
+        {"name" : "Italian man 5", "price" : "100", "img": "Images/Pizzas/5.jpg"},
+
+        {"name" : "Italian man 6", "price" : "100", "img": "Images/Pizzas/6.jpg"}
+
     ]
 }
